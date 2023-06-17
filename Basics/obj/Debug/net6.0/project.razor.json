@@ -18394,6 +18394,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\C#Derslerim\\MVC\\Basics\\Views\\Employee\\Index.cshtml",
+      "TargetPath": "Views\\Employee\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\C#Derslerim\\MVC\\Basics\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

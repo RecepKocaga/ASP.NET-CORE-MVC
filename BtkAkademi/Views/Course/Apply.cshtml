@@ -5,26 +5,26 @@
     Apply-Başvuru
 </div>
 
-<form method="post" action="/course/apply">
+<form method="post" asp-action="Apply">
   <div class="form-group my-2">
-    <label for="exampleInputEmail1">Email</label>
-    <input type="email" name="Email" class="form-control" placeholder="Enter email">
+    <label asp-for="Email"></label>
+    <input asp-for="Email" class="form-control" placeholder="Enter email">
   </div>
 
     <div class="form-group my-2">
-    <label>FirstName</label>
-    <input type="text" name="FirstName" class="form-control" placeholder="Enter FirstName">
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" class="form-control" placeholder="Enter FirstName">
   </div>
 
     <div class="form-group my-2">
-     <label>FirstName</label>
-     <input type="text" name="LastName" class="form-control" placeholder="Enter FirstName">
+     <label asp-for="LastName"></label>
+     <input asp-for="LastName"  class="form-control" placeholder="Enter LastName">
    </div>
 
    
     <div class="form-group my-2">
-      <label>Age</label>
-      <select name="Age" class="form-control">
+      <label asp-for="Age" ></label>
+      <select asp-for="Age" class="form-control">
         <option value="18">18</option>
         <option value="19">19</option>
         <option value="20">20</option>
@@ -37,23 +37,23 @@
   <fieldset>
     <legend >Select One Course</legend>
     <p>
-        <input id="mvc" type="radio" name="SelectedCourse" value="ASP.NET Core MVC">
+        <input id="mvc" type="radio" asp-for="SelectedCourse"  value="ASP.NET Core MVC">
         <label>ASP.NET Core MVC</label>
     </p>
         <p>
-        <input id="mvc" type="radio" name="SelectedCourse" value="ASP.NET Core API">
+        <input id="mvc" type="radio" asp-for="SelectedCourse" value="ASP.NET Core API">
         <label>ASP.NET Core API</label>
     </p>
 
     <p>
-        <input id="mvc" type="radio" name="SelectedCourse" value="Blazor">
+        <input id="mvc" type="radio" asp-for="SelectedCourse" value="Blazor">
         <label>Blazor</label>
     </p>
   </fieldset>
 
 <div>
   <button type="submit" class="btn btn-primary">Aplly(Başvuru Yap)</button>
-  <a class="btn btn-warning" href="/">Home</a>
+  <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Home</a>
 </div>
 
 </form>

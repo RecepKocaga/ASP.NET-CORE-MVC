@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using StoreApp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -6,7 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 //builder inşa et
 //Build derleme
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<RepositoryContext>(options =>
+{
+options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
+});
 var app = builder.Build();
 
 app.UseHttpsRedirection();

@@ -19,8 +19,9 @@ namespace BtkAkademi.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Apply([FromForm] Candidate model)
         {
-            if(Repository.Applications.Any(c=>c.Email.Equals(model.Email))){
-               ModelState.AddModelError("","Bu Email adresinde bir başvuru bulunmaktadır");
+            if (Repository.Applications.Any(c => c.Email.Equals(model.Email)))
+            {
+                ModelState.AddModelError("", "Bu Email adresinde bir başvuru bulunmaktadır");
             }
             if (ModelState.IsValid)
             {

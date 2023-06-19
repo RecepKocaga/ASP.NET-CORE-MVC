@@ -9,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 //builder inşa et
 //Build derleme
 builder.Services.AddControllersWithViews();
+
+//DbContext ti Servicese bağladık
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
 options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));

@@ -18374,6 +18374,11 @@
   "RootNamespace": "StoreApp",
   "Documents": [
     {
+      "FilePath": "c:\\C#Derslerim\\MVC\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\C#Derslerim\\MVC\\Store\\StoreApp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

@@ -1,0 +1,24 @@
+@model List<StoreApp.Models.Product>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Merhaba Dünya</title>
+</head>
+
+<body>
+
+    @foreach (StoreApp.Models.Product prd in Model)
+    {
+        <div>
+            <p>@prd.ProductId</p>
+            <h3>@prd.ProductName</h3>
+            <p>@prd.Price</p>
+        </div>
+
+    }
+</body>
+
+</html>

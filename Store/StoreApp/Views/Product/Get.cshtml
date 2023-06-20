@@ -1,24 +1,17 @@
-@model StoreApp.Models.Product
+@model Product
 
 
-<!DOCTYPE html>
-<html>
+<div>
 
-<head>
-    <title>Merhaba Dünya</title>
-</head>
+    <h3>@Model.ProductName</h3>
+    <p>@Model.Price</p>
+    <a href="/Product">Product</a>
+</div>
 
-<body>
-
-
-        <div>
-
-            <h3>@Model.ProductName</h3>
-            <p>@Model.Price</p>
-            <a href="/Product">Product</a>
-        </div>
-
-
-</body>
-
-</html>
+@* BU ALAN SADECE BU SAYFADA GÖRÜNECEKTİR*@
+@section Header{
+    <div>
+        Only for Index Header
+    </div>
+}
+@* BU ALAN SADECE BU SAYFADA GÖRÜNECEKTİR*@

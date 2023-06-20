@@ -1,25 +1,21 @@
-@model List<StoreApp.Models.Product>
+@model List<Product>
+
+@* BU ALAN SADECE BU SAYFADA GÖRÜNECEKTİR*@
+@section Footer{
+    <div>
+        Only for Index footer
+    </div>
+}
+@* BU ALAN SADECE BU SAYFADA GÖRÜNECEKTİR*@
 
 
-<!DOCTYPE html>
-<html>
+@foreach (StoreApp.Models.Product prd in Model)
+{
+    <div>
+        <p>@prd.ProductId</p>
+        <h3>@prd.ProductName</h3>
+        <p>@prd.Price</p>
+        <a href="/Product/Get/@prd.ProductId">Get Details</a>
+    </div>
 
-<head>
-    <title>Merhaba Dünya</title>
-</head>
-
-<body>
-
-    @foreach (StoreApp.Models.Product prd in Model)
-    {
-        <div>
-            <p>@prd.ProductId</p>
-            <h3>@prd.ProductName</h3>
-            <p>@prd.Price</p>
-            <a href="/Product/Get/@prd.ProductId">Get Details</a>
-        </div>
-
-    }
-</body>
-
-</html>
+}

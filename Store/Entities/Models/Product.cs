@@ -1,9 +1,7 @@
-namespace StoreApp.Models
+﻿namespace Entities.Models;
+public class Product
 {
-    public class Product
-    {
         public int ProductId { get; set; }
         public String? ProductName { get; set; } = String.Empty;
         public decimal Price { get; set; }
-    }
 }

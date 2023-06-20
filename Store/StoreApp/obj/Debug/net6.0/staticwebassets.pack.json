@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\images\\image.jpeg",
+      "PackagePath": "staticwebassets\\images\\image.jpeg"
+    },
+    {
       "Id": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

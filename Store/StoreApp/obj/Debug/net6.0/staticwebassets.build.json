@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f9/daLONYSLEwzDoMsMhAnfjmJDp31J4lugHcWiI7V8=",
+  "Hash": "RYVmCtAZryiw6h+KU6wfX36uiq5AXpnpOGoPpk+nt0U=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\images\\image.jpeg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/image.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.jpeg"
     },
     {
       "Identity": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",

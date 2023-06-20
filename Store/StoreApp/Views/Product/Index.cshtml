@@ -9,7 +9,7 @@
 @* BU ALAN SADECE BU SAYFADA GÖRÜNECEKTİR*@
 
 <div class="row my-3">
-    @foreach (StoreApp.Models.Product prd in Model)
+    @foreach (Product prd in Model)
     {
 
         <partial name="_ProductCard" model="@prd" />

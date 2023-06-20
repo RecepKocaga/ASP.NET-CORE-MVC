@@ -55,3 +55,5 @@ C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sql
 C:\C#Derslerim\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
 C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
 C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
+C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb

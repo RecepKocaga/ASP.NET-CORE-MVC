@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9tk79bBrsnihKhcreNgdSPq3RToWysTTWYB+0/6xttE=",
+  "Hash": "f9/daLONYSLEwzDoMsMhAnfjmJDp31J4lugHcWiI7V8=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\lib\\bootstrapap\\css\\bootstrap-grid.css",

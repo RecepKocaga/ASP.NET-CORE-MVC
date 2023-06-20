@@ -1,9 +1,16 @@
 @model Product
-<div>
-    <h2>@Model.ProductName</h2>
-    <p>@Model.Price.ToString("c")</p>
-    <a class="btn btn-primary" asp-action="Get" asp-route-id="@Model.ProductId">
-        <i class="fa-solid fa-arrow-right"></i>
-        Get Details</a>
-    <hr>
+
+<div class="col-sm-12 col-md-4 col-xl-3 my-2">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="/images/image.jpeg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@Model.ProductName</h5>
+            <p class="text-danger">@Model.Price</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a class="btn btn-primary" asp-action="Get" asp-route-id="@Model.ProductId">
+                <i class="fa-solid fa-arrow-right"></i>
+                Get Details</a>
+        </div>
+    </div>
 </div>

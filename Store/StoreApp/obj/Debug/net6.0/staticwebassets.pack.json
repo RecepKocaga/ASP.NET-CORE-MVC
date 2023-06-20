@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
       "Id": "C:\\C#Derslerim\\MVC\\Store\\StoreApp\\wwwroot\\lib\\bootstrapap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrapap\\css\\bootstrap-grid.css"
     },

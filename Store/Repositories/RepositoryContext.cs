@@ -6,6 +6,7 @@ namespace Repositories;
  public class RepositoryContext : DbContext
     {
         public DbSet<Product> Products { get; set; } //Product modelinde olan alanları Products tablosuna at
+        public DbSet<Category> Categories { get; set; }
 
         public RepositoryContext(DbContextOptions<RepositoryContext> options) //veritabanını dizesine gitmek üzere bağlantı dizesi RepositoryContext
         : base(options)
@@ -15,6 +16,7 @@ namespace Repositories;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Product>()
             .HasData(
 
@@ -25,5 +27,14 @@ namespace Repositories;
                 new Product() { ProductId = 5, ProductName = "Deck", Price = 20_000 }
 
             );
+
+            modelBuilder.Entity<Category>()
+            .HasData(
+
+                new Category() { CategoryId = 1, CategoryName = "Book" },
+                new Category() { CategoryId = 2, CategoryName = "Electronik" }
+
+            );
+
         }
     }

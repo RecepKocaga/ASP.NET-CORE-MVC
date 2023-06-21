@@ -57,3 +57,5 @@ C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runt
 C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
 C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
 C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+C:\C#Derslerim\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb

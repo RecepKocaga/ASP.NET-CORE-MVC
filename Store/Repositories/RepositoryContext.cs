@@ -1,9 +1,9 @@
-
+﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using Entities.Models;
-namespace StoreApp.Models
-{
-    public class RepositoryContext : DbContext
+
+
+namespace Repositories;
+ public class RepositoryContext : DbContext
     {
         public DbSet<Product> Products { get; set; } //Product modelinde olan alanları Products tablosuna at
 
@@ -27,4 +27,3 @@ namespace StoreApp.Models
             );
         }
     }
-}

@@ -5,11 +5,11 @@ using Services.Contracts;
 
 namespace StoreApp.Components
 {
-    public class ProductSummary : ViewComponent
+    public class ProductSummaryViewComponent : ViewComponent
     {
         private readonly IServiceManager _manager;
 
-        public ProductSummary(IServiceManager manager)
+        public ProductSummaryViewComponent(IServiceManager manager)
         {
             _manager = manager;
         }

@@ -6,13 +6,14 @@
 
 
 <form method="post" asp-action="Create">
+    <div class="text-danger" asp-validation-summary="All"></div>
     <div class="form-group my-3">
         <label asp-for="ProductName">Product Name</label>
-        <input asp-asp-for="ProductName" class="form-control" />
+        <input asp-for="ProductName" class="form-control" />
     </div>
     <div class="form-group my-3">
         <label asp-for="Price">Price</label>
-        <input asp-asp-for="Price" class="form-control" />
+        <input asp-for="Price" class="form-control" />
     </div>
 
     <div class="form-group my-3">

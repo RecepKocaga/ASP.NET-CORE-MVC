@@ -1,3 +1,7 @@
+using Entities.Models;
+using Repositories.Contracts;
+using Services.Contracts;
+
 namespace Services
 {
     public class ProductManager : IProductService
@@ -11,7 +15,7 @@ namespace Services
 
         public IEnumerable<Product> GetAllProducts(bool trackChanges){
           
-          return _manager.Product.GetAllProducts(trackChanges);
+          return _manager.Product.GetdAllProducts(trackChanges);
          }
          
          public Product? GetOneProduct(int id, bool trackChanges){

@@ -6,5 +6,6 @@ namespace Repositories.Contracts
     {
         IQueryable<Product> GetdAllProducts(bool trackChanges);
         Product? GetOneProduct(int id, bool trackChanges);
+        void CreateProduct(Product product);
     }
 }

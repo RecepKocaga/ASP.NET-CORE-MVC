@@ -10,6 +10,8 @@ namespace Repositories
            
         }
 
+        public void CreateProduct(Product product) =>Create(product);
+
         public IQueryable<Product> GetdAllProducts(bool trackChanges)=>FindAll(trackChanges);
         public Product? GetOneProduct(int id, bool trackChanges)
         {

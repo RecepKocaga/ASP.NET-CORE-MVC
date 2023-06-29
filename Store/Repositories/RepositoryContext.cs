@@ -8,7 +8,7 @@ namespace Repositories;
         public DbSet<Product> Products { get; set; } //Product modelinde olan alanları Products tablosuna at
         public DbSet<Category> Categories { get; set; }
 
-        public RepositoryContext(DbContextOptions<RepositoryContext> options) //veritabanını dizesine gitmek üzere bağlantı dizesi RepositoryContext
+        public RepositoryContext(DbContextOptions<RepositoryContext> options) 
         : base(options)
         {
 
